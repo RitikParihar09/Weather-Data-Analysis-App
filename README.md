@@ -18,4 +18,4 @@ Built with [Preswald](https://app.preswald.com)
 ## How to Run
 - Clone the repo or open it in Preswald
 - Make sure dataset is inside the `data/` folder
-- Run `main.py` in the Preswald script editor
+- Run `hello.py` in the Preswald script editor
