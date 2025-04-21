@@ -1,0 +1,20 @@
+[project]
+title = "Weather Data Analysis"
+version = "0.1.0"
+port = 8501
+slug = "weather-data-analysis-project"
+entrypoint = "hello.py"  
+
+[branding]
+name = "Preswald Weather Analysis"
+logo = "images/cloud.jpg"  
+favicon = "images/cloud.jpg"  
+primaryColor = "#F89613"  
+
+[data.weather_csv]
+type = "csv"
+path = "data/weather.csv" 
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"  
